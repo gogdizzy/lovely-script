@@ -1,0 +1,2 @@
+# lovely-script
+snippet
