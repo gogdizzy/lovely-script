@@ -1,0 +1,6 @@
+#! /bin/bash -
+
+TMP=`uuidgen`
+printf '\xEF\xBB\xBF' >$TMP
+cat $1 >>$TMP
+mv $TMP $1

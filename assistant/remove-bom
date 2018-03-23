@@ -1,0 +1,5 @@
+#! /bin/bash -
+
+TMP=`uuidgen`
+tail -c +4 $1 >$TMP
+mv $TMP $1
