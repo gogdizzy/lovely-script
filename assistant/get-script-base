@@ -1,0 +1,5 @@
+#!/bin/bash  
+  
+cd `dirname $(pwd)/$0`  
+pwd
+

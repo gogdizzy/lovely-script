@@ -1,0 +1,5 @@
+#! /bin/bash -
+
+TMP=`uuidgen`
+cat $1 |tr -d '\r' >$TMP
+mv $TMP $1
